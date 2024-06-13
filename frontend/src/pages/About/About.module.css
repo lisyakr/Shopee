@@ -1,0 +1,32 @@
+.about img {
+    width: 100%;
+}
+.about h3,
+.about h4 {
+    font-weight: 400;
+}
+.about h3 {
+    font-size: calc(23px + 4 * (100vw - 320px) / 2552);
+    margin: 40px 0 30px;
+}
+.about h4 {
+    font-size: calc(20px + 4 * (100vw - 320px) / 2552);
+    margin: 25px 0 20px;
+}
+.about p {
+    font-size: calc(14px + 4 * (100vw - 320px) / 2552);
+    line-height: 20px;
+    margin: 20px 0;
+}
+.desctop_version {
+    display: none;
+}
+@media (min-width: 1024px) {
+    .desctop_mobile {
+        display: none;
+    }
+    .desctop_version {
+        display: block;
+        width: 100%;
+    }
+}

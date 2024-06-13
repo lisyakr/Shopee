@@ -1,0 +1,40 @@
+.shop h2 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.shop .filters {
+    display: flex;
+}
+
+.shop .filters span {
+    font-size: 15px;
+    font-weight: 400;
+    color: #a18a68;
+    margin-left: 15px;
+}
+.custom-select__control {
+    margin: 20px 0;
+    outline: none !important;
+}
+
+.custom-select__control--is--focused:focus {
+    outline: none !important;
+}
+.custom-select__indicator-separator {
+    display: none !important;
+}
+
+.custom-select__option:hover {
+    background-color: rgb(236, 236, 236) !important;
+}
+@media (min-width: 900px) {
+    .custom-select__indicator {
+        cursor: pointer !important;
+    }
+
+    .shop .filters {
+        cursor: pointer;
+    }
+}

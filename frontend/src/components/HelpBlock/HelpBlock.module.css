@@ -1,0 +1,17 @@
+.help {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1.5px solid #d8d8d8;
+}
+.help > div {
+    display: flex;
+}
+.help > div img {
+    margin-right: 15px;
+}
+@media (min-width: 1024px) {
+    .help {
+        cursor: pointer;
+    }
+}

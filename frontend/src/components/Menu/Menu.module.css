@@ -1,0 +1,41 @@
+.menu {
+    position: fixed;
+    top: 0;
+
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translate(100%, 15%);
+    z-index: 10;
+    background-color: rgb(255, 255, 255);
+}
+
+.active {
+    transform: translate(20px, 107px);
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.menu_lists div {
+    margin-bottom: 23px;
+}
+
+.footer {
+    border-top: 1px solid #d8d8d8;
+}
+.footer div {
+    margin-top: 15px;
+    display: flex;
+}
+.footer div img {
+    margin-right: 10px;
+}
+@media (min-width: 900px) {
+    .menu {
+        display: none;
+    }
+}

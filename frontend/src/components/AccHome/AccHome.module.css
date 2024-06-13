@@ -1,0 +1,14 @@
+.home_page {
+    font-size: calc(14px + 4 * (100vw - 320px) / 2552);
+}
+.home_page span {
+    color: #a3865b;
+}
+.home_page p:first-child {
+    margin-bottom: 20px;
+}
+@media (min-width: 900px) {
+    .home_page p:first-child span {
+        cursor: pointer;
+    }
+}

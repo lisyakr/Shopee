@@ -1,0 +1,33 @@
+.order__item > div {
+    display: flex;
+    justify-content: space-between;
+}
+.order__item div div:first-child {
+    text-transform: uppercase;
+}
+.orders_list li > div div:last-child {
+    color: #707070;
+}
+.order__item {
+    padding: 10px 0;
+}
+.order__item > div {
+    padding: 5px 0;
+}
+.order__item:not(:last-child) {
+    border-bottom: 1px solid #d8d8d8;
+}
+
+@media (min-width: 1300px) {
+    .orders_list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .orders_list li {
+        width: 45%;
+        border: 1px solid #d8d8d8;
+        padding: 10px;
+    }
+}

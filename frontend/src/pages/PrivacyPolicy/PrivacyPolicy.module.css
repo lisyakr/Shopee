@@ -1,0 +1,13 @@
+.privacy h3 {
+    font-size: calc(23px + 4 * (100vw - 320px) / 2552);
+    margin: 40px 0 30px;
+}
+.privacy h4 {
+    font-size: calc(20px + 4 * (100vw - 320px) / 2552);
+    margin: 25px 0 20px;
+}
+.privacy p {
+    font-size: calc(14px + 4 * (100vw - 320px) / 2552);
+    line-height: 20px;
+    margin: 20px 0;
+}

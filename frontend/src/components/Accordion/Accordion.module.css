@@ -1,0 +1,35 @@
+.accordion {
+    list-style: none;
+    border-top: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+    margin: 10px 0;
+}
+.item {
+    margin: 15px 0;
+}
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.collapse {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s;
+}
+.collapse.open {
+    height: auto;
+}
+.header img.active {
+    transform: rotate(180deg);
+}
+.body {
+    color: #707070;
+    padding: 8px 5px;
+}
+@media (min-width: 900px) {
+    .accordion {
+        cursor: pointer;
+    }
+}

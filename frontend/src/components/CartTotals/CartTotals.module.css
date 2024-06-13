@@ -1,0 +1,53 @@
+.cart_totals {
+    background-color: #efefef;
+    border-radius: 6px;
+    padding: 15px;
+}
+.cart_totals h4 {
+    font-size: calc(20px + 5 * (100vw - 320px) / 2552);
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.sum {
+    border-bottom: 1px solid #d8d8d8;
+}
+.info_order > div,
+.total_sum {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.total_sum {
+    margin-top: 20px;
+}
+
+.cart_totals span {
+    color: #707070;
+}
+.cart_totals button {
+    display: block;
+    margin-top: 40px;
+}
+.total_sum div,
+.cart_totals button {
+    text-transform: uppercase;
+}
+@media (min-width: 1024px) {
+    .cart_totals {
+        margin-top: 5%;
+        background-color: #fff;
+        width: 40%;
+    }
+    .cart_totals h4 {
+        font-weight: 400;
+    }
+    .total_sum div {
+        font-weight: 600;
+    }
+    .total_sum span {
+        font-weight: 600;
+        color: #000;
+    }
+}

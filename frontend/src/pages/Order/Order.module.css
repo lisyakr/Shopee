@@ -1,0 +1,70 @@
+.checkout h4 {
+    font-size: calc(18px + 8 * (100vw - 340px) / 2552);
+    font-weight: 400;
+    margin: 20px 0;
+}
+.aside {
+    margin-bottom: 35px;
+}
+.aside div {
+    font-size: calc(15px + 4 * (100vw - 340px) / 2552);
+    color: #707070;
+    margin-bottom: 8px;
+}
+.aside span {
+    color: #000000;
+}
+
+.order {
+    background-color: #efefef;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+.order > div,
+.order ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 0;
+}
+.order ul {
+    width: 100%;
+    display: block;
+}
+.order li {
+    color: #707070;
+    font-size: calc(14px + 4 * (100vw - 340px) / 2552);
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    width: 100%;
+}
+.order span {
+    font-size: calc(14px + 4 * (100vw - 340px) / 2552);
+    color: #bc5353;
+}
+.order > div:not(:last-child),
+.order ul {
+    border-bottom: 1px solid #d8d8d8;
+}
+.order .subtotal div:last-child {
+    color: #707070;
+}
+
+@media (min-width: 900px) {
+    .aside div,
+    .empty_order i {
+        cursor: pointer;
+    }
+    .aside span {
+        cursor: auto;
+    }
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    .wrapper > div:first-child,
+    .wrapper > div:last-child {
+        width: 45%;
+    }
+}

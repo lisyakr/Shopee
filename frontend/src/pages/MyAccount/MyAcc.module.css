@@ -1,0 +1,28 @@
+.acc h3 {
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+    margin: 50px 0 20px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: calc(17px + 8 * (100vw - 340px) / 2210);
+    border-bottom: 1px solid #d8d8d8;
+
+    margin-bottom: 40px;
+}
+.acc a {
+    text-decoration: none;
+    color: black;
+}
+.active {
+    font-weight: 700;
+}
+
+@media (min-width: 1024px) {
+    .nav > div {
+        cursor: pointer;
+    }
+}

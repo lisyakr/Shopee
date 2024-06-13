@@ -1,0 +1,26 @@
+.main_text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.main_text h2 {
+    font-size: calc(20px + 8 * (100vw - 320px) / 2552);
+}
+.main_text p {
+    font-size: calc(18px + 8 * (100vw - 320px) / 2552);
+    color: #a18a68;
+}
+.main_text h2,
+.main_text p {
+    font-weight: 400;
+}
+@media (min-width: 900px) {
+    .main_text h2,
+    .main_text p {
+        font-weight: 500;
+    }
+    .main_text p {
+        cursor: pointer;
+    }
+}
