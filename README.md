@@ -1,8 +1,9 @@
+# Description
+
 Проект выполнен по архитектуре SPA.
+*SHOPPE* - интернет-магазин ювелирных украшений, где пользователь может выбрать товар, добавить его в корзину, совершить заказ и зарегистрировать свой персональный аккаунт.
 
-SHOPPE - интернет-магазин ювелирных украшений, где пользователь может выбрать товар, добавить его в корзину, совершить заказ и зарегистрировать свой персональный аккаунт.
-
-*Functional:**
+## Functional
 - Получение данных из БД PostgreSQL;
 - Отрисовка продуктов;
 - Быстрый просмотр продукта в модальном окне;
@@ -15,20 +16,20 @@ SHOPPE - интернет-магазин ювелирных украшений, 
 - Адаптивный интерфейс для разных устройств;
 - Обработка ошибок.
 
-**Stack:**
-HTML5;
-CSS3:
-- Flexbox;
-- Adaptive UI;
-- Media Queries;
-- CSS modules;
-Вёрстка по макету в Figma;
-JavaScript:
-- Promise;
-- VanillaJS + jQuery;
-- Rest API;
-React:
-- React Hooks;
-- React Router;
-- React Select;
-- Webpack.
+## Stack
+- HTML5;
+- CSS3:
+  - Flexbox;
+  - Adaptive UI;
+  - Media Queries;
+  - CSS modules;
+- Вёрстка по макету в Figma;
+- JavaScript:
+  - Promise;
+  - VanillaJS + jQuery;
+  - Rest API;
+- React:
+  - React Hooks;
+  - React Router;
+  - React Select;
+  - Webpack.
