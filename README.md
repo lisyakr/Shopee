@@ -1,4 +1,4 @@
-## Description project
+## Description
 
 Проект выполнен по архитектуре SPA.
 
