@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 import styles from './Basket.module.css';
+import stylesApp from '../../components/App/App.module.css';
 
 import { FormCoupon } from '../../components/Forms/CouponForm/FormCoupon';
 import { CartTotals } from '../../components/CartTotals/CartTotals';
@@ -22,7 +23,7 @@ const ShowNothing = () => {
                 the search
             </p>
             <button
-                className={`${styles.btn} ${styles['btn--white']}`}
+                className={`${stylesApp.btn} ${stylesApp['btn--white']}`}
                 onClick={() => navigate(`/`)}
             >
                 Return to home screen
