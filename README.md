@@ -34,3 +34,5 @@
   - React Router;
   - React Select;
   - Webpack.
+  - 
+![Котик](./frontend/src/assets/img/screen/shoppe-1.png)
