@@ -36,4 +36,7 @@
   - Webpack.
 
 ## Screen
-![main screen](./frontend/src/assets/img/screen/shoppe-1.png)
+![main](./frontend/src/assets/img/screen/shoppe-1.png)
+![basket](./frontend/src/assets/img/screen/shoppe-2.png)
+![orders](./frontend/src/assets/img/screen/shoppe-3.png)
+![account](./frontend/src/assets/img/screen/shoppe-4.png)
